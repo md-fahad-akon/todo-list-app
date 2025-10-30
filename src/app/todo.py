@@ -77,12 +77,12 @@ def main():
     tasks = load_tasks()
 
     while True:
-        print("\n[grey37]==== To-Do List Menu ====[/grey37]")
-        print("[grey37][bold]1.[/bold] View tasks[/grey37]")
-        print("[grey37][bold]2.[/bold] Add a task[/grey37]")
-        print("[grey37][bold]3.[/bold] Mark task as complete[/grey37]")
-        print("[grey37][bold]4.[/bold] Delete a task[/grey37]")
-        print("[grey37][bold]5.[/bold] Exit[/grey37]")
+        print("\n[blue1]==== To-Do List Menu ====[/blue1]")
+        print("[blue1][bold]1.[/bold] View tasks[/blue1]")
+        print("[blue1][bold]2.[/bold] Add a task[/blue1]")
+        print("[blue1][bold]3.[/bold] Mark task as complete[/blue1]")
+        print("[blue1][bold]4.[/bold] Delete a task[/blue1]")
+        print("[blue1][bold]5.[/bold] Exit[/blue1]")
 
         choice = input("Select an option (1-5): ").strip()
 
